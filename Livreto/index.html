@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon (5).ico" type="image/x-icon">
+    <title>Livreto de Oração</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="cima">
+        <div class="icones_esquerda">
+            <a href="https://www.youtube.com/@MarcasdoEvangelho" target="_blank">
+
+                <img class="icone1" src="imagens/1.png" alt="">
+
+            </a>
+            <a href="https://www.instagram.com/marcasdoevangelho/" target="_blank">
+
+                <img class="icone2" src="imagens/2.png" alt="">
+
+            </a>
+        </div>
+       
+
+        <div class="caixa_cima">
+
+            <h1 id="MusicaAtual"
+                style="font-family: 'Bebas Neue', sans-serif; color: #520b02; margin: 10px; font-size:xxx-large;">Louvor
+                Atual...
+                </h3>
+
+                <audio id="audioPrincipal" src="" controls></audio>
+
+                <button class="btn2" onclick="MudarLouvor1()">▶¹</button>
+
+                <button class="btn2" onclick="MudarLouvor2()">▶²</button>
+
+
+                <audio id="audio1" src="musicas/Daniel & Samuel   Simplesmente Barro.mp3"></audio>
+
+                <audio id="audio2" src="musicas/SergioLopes1-o-amigo-7b92115b - Copia.mp3"></audio>
+
+                <audio id="audio3" src="musicas/Louvai - Revelação - Metal Nobre -.mp3"></audio>
+        </div>
+        <div class="icones_direita">
+
+            <a href="http://marcasdoevangelho.com.br/" target="_blank">
+
+                <img class="icone3" src="imagens/3.png" alt="">
+
+            </a>
+
+            <a href="../Devocional/index.html">
+
+                <img class="icone4" src="imagens/4.png" alt="">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="container" id="container">
+        <h1 id="h1" style="font-family: 'Bebas Neue', sans-serif; color: #f0bab3; font-size: xxx-large; text-transform: uppercase;">Livreto de
+            Oração</h1>
+        <input type="number" id="Dia" placeholder="Escreva o dia atual.">
+        <br>
+        <button class="btn1" id="btn1" onclick="buscarLivro()">Procurar</button>
+        <button class="btn1" id="btn1" onclick="CriarSalmos()">Orando pelo Salmos</button>
+        <button class="btn1" id="btn1" onclick="CriarIgreja()">Igreja Perseguida</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
